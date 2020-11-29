@@ -1,2 +1,3 @@
 # ROS_Pybot
-ROS workspace for both the real and the simulated Pybot
+ROS workspace for both the real and the simulated Pybot.
+
