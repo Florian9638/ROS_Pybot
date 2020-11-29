@@ -1,0 +1,9 @@
+controller_list:
+  - name: fake_scara_arm_controller
+    joints:
+      - prismatic_joint
+      - shoulder
+      - elbow
+initial:  # Define initial robot poses.
+  - group: scara_arm
+    pose: 45_left
