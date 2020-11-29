@@ -1,0 +1,19 @@
+# pybot:                    
+    # Publish joint states ----------------------------------
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 100
+
+    # Position controllers --------------------------------
+pose_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - prismatic_joint
+    - shoulder
+    - elbow
+
+  constraints:
+    goal_time: 2.0
+
+  state_publish_rate: 100
+

@@ -1,0 +1,8 @@
+prefix=/home/florian/pybot_ws_2/install
+
+Name: pybot_scara
+Description: Description of pybot_scara
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

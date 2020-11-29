@@ -1,0 +1,1 @@
+{"SCALE": 32, "xy_speed": 100, "z_speed": 100, "scanAREA": 25, "connection": "/dev/ttyACM0", "xy_accel": 100, "z_accel": 100, "VIDEO": false, "yOFFSET": 6, "LIDAR": false}

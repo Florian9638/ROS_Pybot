@@ -1,0 +1,4 @@
+controller_joint_names:
+      - prismatic_joint
+      - shoulder
+      - elbow
